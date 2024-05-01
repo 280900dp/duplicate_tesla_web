@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.model1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(seritesla/Model-Y-Main-Hero-Desktop-Global-v2.avif);
+    background-size: cover;
+    height: 110vh;
+    color: black;
+}
+
+
+.model2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(seritesla/Model-3-Choose-Standard-Desktop-LHD.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: left;
+}
+
+.model3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(seritesla/Model-X-Performance-Desktop-LHD-v2.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.model4 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(seritesla/Model-S-Performance-Desktop.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.model5 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(seritesla/Cybertruck-Main-Hero-Hedgehog-Mobile.avif );
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.model6 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(seritesla/powering-on-desktop.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    backdrop-filter: 5px;
+}
+
+.model7 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(seritesla/Solar-Roof-Design-Desktop-Global.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    backdrop-filter: 5px;
+}
+
+.model8 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(seritesla/storms-happen-desktop.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.model9 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(seritesla/accs-tesla);
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+}
+
+nav {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img {
+    height: 75px;
+    width: 150px;
+}
+
+nav ul {
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.title1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.title1 h1, h2, p{
+    color: #000;
+    text-align: center;
+}
+
+.btn-grp {
+    padding-top: 30vh;
+}
+
+.btn-grp p {
+    font-size: 0.7em;
+    padding-top: 2vh;
+}
+
+.link-lp {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.7em;
+}
+
+.btn-order {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 8vh;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.btn-order1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    padding-left: 10vh;
+    height: 8vh;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.btn-demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 8vh;
+    background-color: #a0a0a0;
+    border-radius: 8px;
+}
